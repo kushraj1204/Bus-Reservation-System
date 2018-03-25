@@ -1,0 +1,120 @@
+#Container {
+	left: 0px;
+	top: 0px;
+	width: 760px;
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#header_ {
+	float: left;
+	left: 0px;
+	top: 0px;
+	width: 760px;
+	height: 388px;
+	background-image: url('images/headern.jpg');
+}
+#header_ ul.navi{
+	width: 750px;
+	display: block;
+	position: absolute;
+	top: 347px;
+	left: 58px;
+	padding: 0;
+	margin: 0;
+	background: none;
+}
+#header_ ul.navi li{
+	border-width: 1px;
+	background: url(images/saparation.gif) no-repeat right;
+	height: 22px;
+	padding: 0 18px 0 5px;
+	margin: 0;
+	display: block;
+	float: left;
+}
+#header_ ul.navi li a{
+	font: 14px/21px Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-indent: 0px;
+	padding: 0 0 0 33px;
+	font-weight: bold;
+	margin: 0;
+	width: auto;
+	letter-spacing: -1px;
+	background-repeat: no-repeat;
+	background-image: url('images/button.png');
+}
+#header_ ul.navi li a:hover{
+	color: #FFFF99;
+	text-decoration: none;
+	background-repeat: no-repeat;
+	background-image: url('images/button_over.png');
+}
+
+
+#right_ {
+
+	color: #DDE6C8;
+	padding: 10;
+	border-spacing: 5px;
+	margin: 0 0 0 45px;
+	width: 670px;
+	display: block;
+	font: 16px/14px Tahoma;
+	text-align: center;
+	float: left;
+	left: 248px;
+	top: 388px;
+	background-image: url('images/right.jpg');
+}
+
+#right_ h2{
+	text-align:center;
+	font: 40px/24px "Gunny Handwriting";
+	color: #CCFF66;
+	font-weight: normal;
+	display: block;
+}
+	
+#right_ h5{
+	text-align:center;
+	font: 40px/24px "Comic Sans";
+	color: #CCFF66;
+	font-weight: normal;
+	display: block;
+	
+		}
+
+
+
+#footer2_ {
+float:left;
+	left: 0px;
+	top: 623px;
+	width: 760px;
+	background-image: url('images/footer2.jpg');
+}
+
+
+
+#footer2_  p{
+	background: no-repeat;
+	color: #DDE6C8;
+	padding: 0;
+	margin: 0 0 0 45px;
+	width: 670px;
+	display: block;
+	font: 13px/17px Tahoma;
+	text-align: center;
+}
+
+
+body {
+	margin: 0px;
+	background-image: url('images/bg.jpg');
+	background-repeat: repeat-x;
+	background-color: #475810;
+}
